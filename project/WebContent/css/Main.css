@@ -1,0 +1,225 @@
+@charset "EUC-KR";
+
+<style>
+   table{
+    width: 100%;
+    border: 1px;
+         }
+
+	#title{
+	float: left;
+	width:124px;
+	margin-left:40px;
+	margin-top:27px;
+	border: none;
+	border-radius: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'netmarbleB';
+	}
+	#loginimport{
+	float:right;
+	margin-left:80px;
+	font-size:3em;
+	border: none;
+	border-radius: 16px;
+	background: #88dba3;
+	color: white;
+	padding:15px 15px 15px 15px;
+	font-weight: bold;
+	font-size: 41px;
+	box-shadow: 0px 0px 10px black inset;
+	cursor: pointer;
+	}
+
+	#myimport{
+	float:right;
+	margin:15px 20px 0px 0px;
+	border: none;
+	border-radius: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 49px;
+	}
+	iframe{
+	width: 985px;
+    height: 555px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-left: -8px;
+	}
+	tr td{
+	width:100%
+	}
+   	#news{
+   	font-family:NanumBarunGothic;
+   	background-color:#1B64A7;
+   	color:white;
+   	width:auto;
+   	font-size:3em;
+   	height:83px;
+   	padding: 15px 4px 0px 30px;
+   	border-radius:16px;
+   	}
+  	body > table:nth-child(9) > tbody > tr > td:nth-child(2) > a{
+   	float:right;
+   	font-size:2em;
+   	font-family:'GmarketSansMedium';
+   	color:#2D966C;
+   	}
+   	#membertitle{
+	font-size:2.5em;
+	width:81%;
+	border:0px;
+	padding:13px 0px 10px 30px;
+
+
+}
+a{
+   text-decoration-line: none;
+   color: black;
+}
+
+   	#cafe{
+    color: black;
+    font-size: 43px;
+    height: 61px;
+    border-radius: 16px;
+    text-align: left;
+    margin: 21px 0px 0px 23px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    padding:30px 0px 0px 25px;
+   	}
+
+ 	a:visited { color: black; text-decoration: none;}
+.dbutton1{
+	  position: fixed;
+	  bottom: 50px;
+	  left: 6%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+	}
+.dbutton2{
+  position: fixed;
+	  bottom: 50px;
+	  left: 26%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton3{
+ position: fixed;
+	  bottom: 50px;
+	  left: 46%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton4{
+  position: fixed;
+	  bottom: 50px;
+	  left: 66%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton5{
+  position: fixed;
+	  bottom: 50px;
+	  left: 88%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+}
+#down{
+  position: fixed;
+  background-color: #02343F; /*임의색상*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 9rem;
+}
+
+/*채팅방 css*/
+.topicon {
+    background-color: #88dba3;
+    border: none;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 26px 0px 0px 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    width:150px;
+}
+#hide{
+    background-color: #88dba3;
+    border: none;
+    color: white;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    width:150px;
+    z-index: 2;
+    position: absolute;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+</style>

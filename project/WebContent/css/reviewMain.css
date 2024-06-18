@@ -1,0 +1,158 @@
+@charset "EUC-KR";
+<style>
+table{
+	width:100%;
+	
+}
+
+#map{
+	width:100%;
+	height:700px;
+	margin:55px 0px 0px 0px;
+}
+#button{
+	float:right;
+	margin:6px 0px 0px 550px;
+	font-size:50px;
+}
+#membertitle{
+	font-size:2.5em;
+	width:90%;
+	border:0px;
+	padding:13px 0px 10px 30px;
+
+}
+	#myimport{
+	float:right;
+	margin:39px 20px 0px 700px;
+	border: none;
+	border-radius: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 49px;
+	}
+a{
+	text-decoration-line: none;
+	color: black;
+}
+
+#name{
+	border:0px
+}
+#reviewTitle{
+	font-size:46px;
+	float :left;
+	margin :20px 19px 20px 29px;
+	width:100%;
+}
+	#title{
+	float: left;
+	width:124px;
+	margin-left:40px;
+	margin-top:27px;
+	border: none;
+	border-radius: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'netmarbleB';
+	}
+	
+	.dbutton1{
+	  position: fixed;
+	  bottom: 50px;
+	  left: 6%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+	}
+.dbutton2{
+  position: fixed;
+	  bottom: 50px;
+	  left: 26%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton3{
+ position: fixed;
+	  bottom: 50px;
+	  left: 46%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton4{
+  position: fixed;
+	  bottom: 50px;
+	  left: 66%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton5{
+  position: fixed;
+	  bottom: 50px;
+	  left: 88%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+}
+#down{
+  position: fixed;
+  background-color: #02343F; /*임의색상*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 9rem;
+}
+	
+</style>

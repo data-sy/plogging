@@ -1,0 +1,288 @@
+@charset "EUC-KR";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+   background-color: #efefef;
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+}
+table {
+   width: 100%;
+}
+#img{
+	width:300px;
+	height:250px;
+	object-fit: cover;
+	float:right;
+}
+#mula{
+	width:100%;
+}
+#myimport{
+	
+}
+
+#input{
+	background: #88dba3;
+	padding : 10px 10px 10px 10px;
+	font-size:28px;
+	float :right;
+	margin:-30px 45px 0px 0px;
+	border-radius:16px
+}
+.topicon {
+   background-color: #2DB400;
+   border: none;
+   color: white;
+   padding: 10px;
+   text-align: left;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   border-radius: 15px;
+}
+.header > div{
+	font-family: Do Hyeon;
+	font-size:2em;
+	
+}
+#myimport{
+	float:right;
+	margin:22px 10px 0px 0px;
+	border: none;
+	border-radius: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 49px;
+}
+#title{
+	float: left;
+	width:124px;
+	margin-left:40px;
+	margin-top:12px;
+	border: none;
+	border-radius: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'netmarbleB';
+   }
+
+a {
+   width: 330px;
+   border: none;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   border-radis: 12px;
+}
+
+
+.header{
+	width:100%
+}
+
+textarea {
+	 border: 0;
+	margin: 0 auto;
+	width:50%;
+	height: 500px;
+	outline: none;
+	resize: none;
+	}
+.tex {
+   width: 330px;
+   height: 25px;
+   margin: 4px 2px;
+   border: none;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   margin: 4px 2px;
+   border-radius: 12px;
+}
+
+.stex1 {
+   width: 270px;
+   height: 25px;
+   margin: 4px 2px;
+   border: none;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   border-radius: 12px;
+}
+
+.stex2 {
+   width: 220px;
+   height: 25px;
+   margin: 4px 2px;
+   border: none;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   border-radius: 12px;
+}
+
+.button {
+   background-color: #2DB400;
+   width: 330px;
+   border: none;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 12px;
+}
+
+  #value{
+    border: none;
+    background: #E0D3B6;
+    padding: 0px;
+    font-size: 18px;
+    border-radius: 6px;
+    color: white;
+    width: 1000px;
+    height: 53px
+  }
+  }
+  #value:focus{
+    outline: none;
+  }
+  .container{
+    background: #FFFFF5;
+    padding: 1%;
+  }
+  .item{
+    margin: 3% 0px;
+    display: flex;
+    align-items: center;
+  }
+  #iconee{
+  	font-size:2.5em;
+  	width:900px;
+  	margin:0px 0px 0px 0px;
+  }
+  #value::placeholder{
+  	font-size : 1em;
+  }
+  #input{
+  	float :right;
+  	font-size:2em;
+  	margin:-19px 41px -15px 0px;
+  	}
+  	
+  		.dbutton1{
+	  position: fixed;
+	  bottom: 50px;
+	  left: 6%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+	}
+.dbutton2{
+  position: fixed;
+	  bottom: 50px;
+	  left: 26%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton3{
+ position: fixed;
+	  bottom: 50px;
+	  left: 46%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton4{
+  position: fixed;
+	  bottom: 50px;
+	  left: 66%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton5{
+  position: fixed;
+	  bottom: 50px;
+	  left: 88%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+}
+#down{
+  position: fixed;
+  background-color: #02343F; /*임의색상*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 9rem;
+}
+</style>

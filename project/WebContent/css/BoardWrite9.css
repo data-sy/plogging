@@ -1,0 +1,216 @@
+@charset "EUC-KR";
+ table{
+    width: 360px;
+    border: 1px solid #444444;
+         }
+   tr , td{
+    border: 1px solid #444444;
+    padding: 5px;
+   }
+   textarea {
+      width: 320px;
+      height: 300px;
+    }
+      .mtable1{
+   width: 100%;
+  
+        }   
+
+.ltex{
+   width: 100%;
+   box-sizing : border-box;
+   height: 100px;
+   border: none;
+   padding: 20px;
+   /* text-align: center; */
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   border-radius: 12px;
+
+   /* border-radius: 12px; */
+
+}
+.button {
+   background-color: #88dba3;
+   width: 330px;
+   border: none;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 12px;
+
+   
+}
+.topicon {
+   background-color: #88dba3;
+   border: none;
+   color: white;
+   padding: 30px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   margin: 4px 2px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 15px;
+}
+textarea {
+	 border: 0;
+	margin: 0 auto;
+	width:100%;
+	height: 1000px;
+	text-decoration: none;
+	outline: none;
+	resize: none;
+	font-size: 30px;
+	border-radius: 12px;
+	}
+	.qq{
+	padding-bottom : 10px;
+	}
+	.btn {
+display: inline-block;
+margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+border-radius: 4px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none; }
+
+.btn-primary {
+   background-color: #88dba3;
+   border: none;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   margin: 4px 2px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 15px;
+   
+}
+#input-file {
+display:none;
+}
+span{
+font-size: 30px;
+
+}
+
+	.dbutton1{
+	  position: fixed;
+	  bottom: 50px;
+	  left: 6%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+	}
+.dbutton2{
+  position: fixed;
+	  bottom: 50px;
+	  left: 26%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton3{
+ position: fixed;
+	  bottom: 50px;
+	  left: 46%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton4{
+  position: fixed;
+	  bottom: 50px;
+	  left: 66%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton5{
+  position: fixed;
+	  bottom: 50px;
+	  left: 88%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+}
+#down{
+  position: fixed;
+  background-color: #02343F; /*임의색상*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 9rem;
+}
+	

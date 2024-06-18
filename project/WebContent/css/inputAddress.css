@@ -1,0 +1,155 @@
+@charset "EUC-KR";
+
+.mtable1 {
+	width: 100%;
+}
+
+#map {
+	width: 95%;
+	height: 700px;
+	margin: 50px 0px 50px 20px;
+}
+
+hr {
+	color: #CCCCCC;
+	width: 98%;
+}
+
+b {
+	font-size: 27px;
+	padding: 20px;
+}
+
+.ttt {
+	margin: 30px 0px 40px
+}
+
+#addr {
+	width: 760px;
+	height: 40px;
+	margin: 4px 2px;
+	border: none;
+	padding: 10px;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 35px;
+	margin: 15px 15px;
+	border-radius: 12px;
+}
+
+.topicon {
+	background-color: #88dba3;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	margin: 4px 2px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 15px;
+}
+
+.dbutton1 {
+	position: fixed;
+	bottom: 50px;
+	left: 6%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+	padding-right: 50px;
+	border-right: 4px solid #ffffff;
+}
+
+.dbutton2 {
+	position: fixed;
+	bottom: 50px;
+	left: 26%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+	padding-right: 50px;
+	border-right: 4px solid #ffffff;
+}
+
+.dbutton3 {
+	position: fixed;
+	bottom: 50px;
+	left: 46%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+	padding-right: 50px;
+	border-right: 4px solid #ffffff;
+}
+
+.dbutton4 {
+	position: fixed;
+	bottom: 50px;
+	left: 66%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+	padding-right: 50px;
+	border-right: 4px solid #ffffff;
+}
+
+.dbutton5 {
+	position: fixed;
+	bottom: 50px;
+	left: 88%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+}
+
+#down {
+	position: fixed;
+	background-color: #02343F; /*임의색상*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 9rem;
+}

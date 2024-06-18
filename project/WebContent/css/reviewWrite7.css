@@ -1,0 +1,188 @@
+@charset "EUC-KR";
+<style>
+	table {
+		width : 100%;
+	}
+textarea{
+	border: 0;
+	margin: 0 auto;
+	width:100%;
+	height: 800px;
+	text-decoration: none;
+	outline: none;
+	resize: none;
+	font-size: 30px;
+	border-radius: 12px;
+	background-color:#dadbdb;
+}
+	#title{
+	float: left;
+	width:124px;
+	margin-left:60px;
+	margin-top:40px;
+	border: none;
+	border-radius: 16px;
+	background:white ;
+	color: #88dba3;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'netmarbleB';
+	}
+	#myimport{
+	float:right;
+	margin:20px 20px 0px 0px;
+	font-size:3em;
+	border: none;
+	border-radius: 16px;
+	background: #88dba3;
+	color: white;
+	padding:15px 15px 15px 15px;
+	font-weight: bold;
+	font-size: 41px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	cursor: pointer;
+	}
+#reviewTitle{
+   width: 100%;
+   box-sizing : border-box;
+   height: 100px;
+   border: none;
+   padding: 20px;
+   /* text-align: center; */
+	background-color:#dadbdb;
+   font-size: 30px;
+   border-radius: 12px;
+   text-decoration: none;
+   display: inline-block;
+   /* border-radius: 12px; */
+	margin-top: 40px;
+}
+i{
+	font-size:5em;
+}
+#run{
+	font-size:2em;
+	padding-top:20px;
+}
+#run > input{
+	width: 100%;
+    height: 40px;
+    padding: 9px 0px 0px 0px;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    background-color:#dadbdb;
+    font-size: 1em;
+}
+#trash > div{
+	float:left;
+	margin:-20px 40px 0px 0px;
+	padding-top:20px;
+}
+body > div > form > table:nth-child(1) > tbody > tr:nth-child(6) > td > input[type=submit]{
+	float: right;
+    width: 120px;
+    height: 65px;
+    font-size: 2em;
+    border-radius: 10px;
+    margin: 10px 40px 0px 0px;
+    background:#88dba3;
+}
+
+	.dbutton1{
+	  position: fixed;
+	  bottom: 50px;
+	  left: 6%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+	}
+.dbutton2{
+  position: fixed;
+	  bottom: 50px;
+	  left: 26%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton3{
+ position: fixed;
+	  bottom: 50px;
+	  left: 46%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton4{
+  position: fixed;
+	  bottom: 50px;
+	  left: 66%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton5{
+  position: fixed;
+	  bottom: 50px;
+	  left: 88%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+}
+#down{
+  position: fixed;
+  background-color: #02343F; /*임의색상*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 9rem;
+}
+</style>

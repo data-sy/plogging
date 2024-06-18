@@ -1,0 +1,203 @@
+@charset "EUC-KR";
+<script>body {
+	overflow-y: scroll;
+}
+
+hr {
+	color: #CCCCCC;
+	width: 98%;
+}
+
+#title {
+	float: left;
+	width: 124px;
+	margin-left: 40px;
+	margin-top: 27px;
+	border: none;
+	border-radius: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'netmarbleB';
+}
+
+#myimport {
+	float: right;
+	margin: 15px 20px 0px 0px;
+	border: none;
+	border-radius: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 49px;
+}
+
+table {
+	width: 100%;
+	font-size: 40px;
+	margin: 10xp;
+}
+
+#gettitle {
+	font-size: 1.5em;
+	margin-left: 100px;
+	padding: 70px 0px 0px 50px;
+}
+
+#date {
+	font-size: 38px;
+	padding: 15px 30px 20px 50px;
+}
+
+#memberId {
+	font-size: 38px;
+	padding: 15px 30px 20px 30px;
+}
+
+#content {
+	background: white;
+	padding: 50px;
+	text-align: left;
+	font-size: 1.2em;
+	vertical-align: top;
+	background-color: #dadbdb;
+}
+
+#pw {
+	text-align: right;
+}
+
+#re {
+	padding: 10px;
+	padding-left: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+.tex {
+	width: 300px;
+	height: 40px;
+	margin: 4px 2px;
+	border: none;
+	padding: 10px;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 38px;
+	margin: 15px 15px;
+	border-radius: 12px;
+}
+
+.dbuttonRe {
+	border: none;
+	border-radius: 10px;
+	background: #88dba3;
+	color: white;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 25px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	cursor: pointer;
+}
+
+.dbutton1 {
+	position: fixed;
+	bottom: 50px;
+	left: 6%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+	padding-right: 50px;
+	border-right: 4px solid #ffffff;
+}
+
+.dbutton2 {
+	position: fixed;
+	bottom: 50px;
+	left: 26%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+	padding-right: 50px;
+	border-right: 4px solid #ffffff;
+}
+
+.dbutton3 {
+	position: fixed;
+	bottom: 50px;
+	left: 46%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+	padding-right: 50px;
+	border-right: 4px solid #ffffff;
+}
+
+.dbutton4 {
+	position: fixed;
+	bottom: 50px;
+	left: 66%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+	padding-right: 50px;
+	border-right: 4px solid #ffffff;
+}
+
+.dbutton5 {
+	position: fixed;
+	bottom: 50px;
+	left: 88%;
+	border: none;
+	/* border-radius: 16px; */
+	/* background: #88dba3; */
+	color: white;
+	/* padding: 30px; */
+	font-weight: bold;
+	font-size: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	cursor: pointer;
+	/* float:left; */
+	font-family: "Noto Sans KR";
+}
+
+#down {
+	position: fixed;
+	background-color: #02343F; /*ÀÓÀÇ»ö»ó*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 9rem;
+}
+</script>

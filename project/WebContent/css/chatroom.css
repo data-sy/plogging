@@ -1,0 +1,322 @@
+@charset "EUC-KR";
+
+<style>
+.big_menu {
+	cursor: pointer;
+}
+
+ul {
+	padding-inline-start: 0px;
+}
+
+a {
+	color: #797979;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+p {
+	font-size: 25px;
+}
+
+p1 {
+	font-size: 30px;
+	margin-left: 430px;
+}
+
+ul {
+	list-style: none;
+}
+
+ol, ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.has_sub {
+	width: 100%;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	/* background: rgba(0, 0, 0, 0.7); */
+}
+
+.hide_sidemenu {
+	display: none;
+}
+#reportImg{
+	width: 100%;
+	height: 150px;
+	margin: 20px;
+}
+#img {
+	width: 220px;
+	height: 130px;
+	object-fit: cover;
+	float: left;
+}
+
+body {
+	background-color: #efefef;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+#chatmain {
+	margin: auto;
+	width: 90%;
+	height: 1000px;
+	background-color: #B2C7D9;
+	padding: 20px;
+	overflow-y: scroll;
+}
+
+.my {
+	text-align: right;
+	font-color: black;
+}
+
+.others {
+	text-align: left;
+	font-color: black;
+}
+
+/*	.myContent{
+		text-align: right;
+		font-color:black;
+		background-color:pink;
+	}*/
+.myContent {
+	text-align: right;
+	margin: 0px 0px 0px 615px;
+	width: 250px;
+	height: 100px;
+	background: #F7E600;
+	border-radius: 10px;
+}
+
+.myContent:after {
+	border-top: 00px solid transparent;
+	border-left: 10px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 10px solid pink;
+	content: "";
+	position: absolute;
+	top: -10px;
+	left: 200px;
+}
+
+.otherContent {
+	text-align: left;
+	position: relative;
+	width: 250px;
+	height: 100px;
+	background: #fffdef;
+	border-radius: 10px;
+}
+
+.balloon:after {
+	border-top: 00px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid pink;
+	content: "";
+	position: absolute;
+	top: -10px;
+	left: 200px;
+}
+
+#content {
+	width: 100%;
+	margin-left: 3%;
+	height: 100px;
+	font-size: 20px;
+	float: left
+}
+
+#send {
+	width: 81%;
+	height: 106px;
+	float: left;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+}
+
+.topicon {
+	background-color: #88dba3;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	margin: 4px 2px;
+	border-radius: 15px;
+	margin-left: 25px;
+}
+
+.rtopicon {
+	background-color: #88dba3;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	margin: 4px 2px;
+	border-radius: 15px;
+	margin-right: 25px;
+}
+
+#myimport {
+	margin: 0px 0px 0px 0px;
+	border: none;
+	border-radius: 16px;
+	background: #88dba3;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	cursor: pointer;
+	}
+.rmyimport{
+	float:right;
+	}
+.lmyimport{
+	float:left;
+	}
+.ttable td{
+	border-bottom:1px solid #3d3d3d;
+	}
+	.rtd{
+	border-right:1px solid #3d3d3d;
+	}
+	#chat{
+	font-size:25px;
+	}
+		.dbutton1{
+	  position: fixed;
+	  bottom: 50px;
+	  left: 6%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+	}
+.dbutton2{
+  position: fixed;
+	  bottom: 50px;
+	  left: 26%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton3{
+ position: fixed;
+	  bottom: 50px;
+	  left: 46%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton4{
+  position: fixed;
+	  bottom: 50px;
+	  left: 66%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+	  padding-right:50px;
+	  border-right:4px solid #ffffff;
+}
+.dbutton5{
+  position: fixed;
+	  bottom: 50px;
+	  left: 88%;
+	  border: none;
+	  /* border-radius: 16px; */
+	  /* background: #88dba3; */
+	  color: white;
+	  /* padding: 30px; */
+	  font-weight: bold;
+	  font-size: 40px;
+	  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	  cursor: pointer;
+	  /* float:left; */
+	  font-family: "Noto Sans KR";
+}
+#down{
+  position: fixed;
+  background-color: #02343F; /*임의색상*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 9rem;
+}
+
+.rmyimport {
+	float: right;
+}
+
+.lmyimport {
+	float: left;
+}
+
+.ttable td {
+	border-bottom: 1px solid #3d3d3d;
+}
+
+.rtd {
+	border-right: 1px solid #3d3d3d;
+}
+
+#chat {
+	font-size: 25px;
+}
+</style>
